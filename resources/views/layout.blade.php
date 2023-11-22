@@ -97,7 +97,7 @@
                   </div>
                </div>
                <div class="col-md-2 hidden-xs">
-                  <div id="get-bookmark" class="box-shadow"><i class="hl-bookmark"></i><span> Bookmarks</span><span class="count">0</span></div>
+                  <div id="get-bookmark" class="box-shadow"><span> Bookmarks</span><span class="count">0</span></div>
                   <div id="bookmark-list" class="hidden bookmark-list-on-pc">
                      <ul style="margin: 0;"></ul>
                   </div>
@@ -218,12 +218,12 @@
 
       <!-- fb root -->
       <div id="fb-root"></div>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0" nonce="GmtmJIv5"></script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v18.0&appId=2134201376754846" nonce="27Mg0Dis"></script>
 
       <script type='text/javascript' src='{{asset('js/halimtheme-core.min.js?ver=1626273138')}}' id='halim-init-js'></script>
       <script type="text/javascript">
         $(window).on('load', function() {
-            $('#banner_quangcao').modal('show');
+            $('#banner_quangcao').modal('hidden');
         });
       </script>
       <script type="text/javascript">
